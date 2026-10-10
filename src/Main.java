@@ -5,21 +5,21 @@ void main() {
     Motor m2 = new Motor();
     Motor m3 = new Motor();
 
-    m1.nombre="Motor v8";
-    m1.potencia=450;
-    m1.velocidad=300;
-    m1.encendido = false;
+    m1.setNombre("Motor v8");
+    m1.setPotencia(450);
+    m1.setVelocidad(300);
+    m1.setEncendido(false);
 
-    m2.nombre="Motor electrico";
-    m2.potencia=3150;
-    m2.velocidad=400;
-    m2.encendido = true;
+    m2.setNombre("Motor electrico");
+    m2.setPotencia(3150);
+    m2.setVelocidad(400);
+    m2.setEncendido(false);
 
 
-    m3.nombre="Motor diesel";
-    m3.potencia=250;
-    m3.velocidad=200;
-    m3.encendido = true;
+    m3.setNombre("Motor diesel");
+    m3.setPotencia(250);
+    m3.setVelocidad(200);
+    m3.setEncendido(true);
 
 
     System.out.println("----DATOS MOTOR 1----");
